@@ -1,0 +1,105 @@
+h2 {
+    font-family: Volkhov, serif;
+font-size: 24pt;
+}
+
+h3 {
+    font-family: Raleway, sans-serif;
+    font-size: 20pt;
+    font-weight:normal;
+}
+
+h1 {
+    font-family: Volkhov, serif;
+    font-size: 28pt;
+    text-align: center;
+}
+
+h4 {
+    font-family: Raleway, sans-serif;
+    font-size: 18pt;
+    font-weight:normal;
+}
+
+h5 {
+    font-family: Raleway, sans-serif;
+    font-size: 14pt;
+    font-weight:normal;
+}
+
+.inline-block {
+    display: inline-block;
+    flex-direction: row;
+    margin: 0px 5%;
+}
+
+.inline-block ul {
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+text-align: left;
+font-family: Raleway, sans-serif;
+font-size: 14pt;
+vertical-align: middle;
+}
+
+li {
+    float: left;
+    padding: 8px;
+}
+
+.logo img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    flex-direction: row;
+    display: inline-block;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.hero img {
+    padding: 50px;
+    max-width: 75%;
+    height: 400px;
+}
+
+.hero-copy {
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.events {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 50px;
+    padding: 30px;
+}
+
+
+
+
+
+.event-container {
+    padding: 30px;
+    gap: 20px;
+}
+
+.eventcard {
+    background-color: #D19654;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 40px;
+    max-width: fit-content;
+    padding: 20px;
+    line-height: 10px;
+}
+
+.eventcard img{
+    width: 100%;
+}
