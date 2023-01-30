@@ -103,3 +103,15 @@ li {
 .eventcard img{
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    .events {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .eventcard {
+        flex-direction: column;
+        width: 100%;
+    }
+  }
